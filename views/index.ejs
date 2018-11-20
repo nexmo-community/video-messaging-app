@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #login,
+      #messages {
+        width: 80% ; height: 300px;
+      }
+
+      #messages {
+        display: none
+      }
+
+      #conversations {
+        display: none
+      }
+    </style>
+    <script type="text/javascript">
+      const opentokApiKey = '<%= opentokApiKey %>';
+      const opentokSessionId = '<%= opentokSessionId %>';
+      const opentokToken = '<%= opentokToken %>';
+      const nexmoConversationId = '<%= nexmoConversationId %>';
+      const nexmoJWT = '<%= nexmoJWT %>';
+    </script>
+    <script src="/js/bundle.js"></script>
+  </head>
+
+  <body>
+    <form id="login">
+      <h1>Login</h1>
+      <input type="text" name="username" value="">
+      <input type="submit" value="Login" />
+    </form>
+
+    <section id="messages">
+      <button id="leave">Leave Conversation</button>
+      <h1>Messages</h1>
+
+      <div id="messageFeed"></div>
+
+      <textarea id="messageTextarea"></textarea>
+      <br>
+      <button id="send">Send</button>
+    </section>
+
+    <section id="conversations">
+      <h1>Conversations</h1>
+    </section>
+  </body>
+</html>

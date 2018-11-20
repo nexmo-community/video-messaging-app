@@ -1,0 +1,9 @@
+module.exports = {
+  opentokApiKey: '',
+  opentokApiSecret: '',
+  nexmoApiKey: '',
+  nexmoApiSecret: '',
+  nexmoApplicationId: '',
+  nexmoPrivateKey: '',
+  nexmoConversationId: '',
+};
