@@ -13,7 +13,7 @@
   "dependencies": {
     "@opentok/client": "^2.15.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^5.0.0",
     "nexmo": "^2.4.0",
     "nexmo-stitch": "^3.0.1",
     "opentok": "^2.8.0"
